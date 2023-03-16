@@ -1,0 +1,25 @@
+:root {
+  --text-color: #ffffff;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bcg-color: #ffffff;
+  --secondary-bcg-color: #2f303a;
+  --add-bcg-color: #f5f4fa;
+  --icon-color: #afb1b8;
+  --text-font: 'Roboto', sans-serif;
+  --accent-font: 'Raleway', sans-serif;
+  --grid-gap: 30px;
+  --grid-item: 1;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-animation: 250ms;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
